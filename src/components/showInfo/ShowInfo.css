@@ -1,0 +1,22 @@
+.ImagePoke{
+    width: 260px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
+}
+.ContainerImg{
+    background-color: gray;
+    padding: 30px;
+    margin: 20px 20px 20px 20px;
+}
+.stats{
+    width: 100%;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    padding: 5px;
+    font-size: 10px;
+
+}
+.NamePoke{
+    text-align: center;
+    margin:30px 0;
+}

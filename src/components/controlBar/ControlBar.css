@@ -1,0 +1,22 @@
+.ButtonChange{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgba(71, 68, 131, 0.939);
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 5px black;
+}
+.Botonera{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.ButtonChange:hover{
+    transform: translateY(5px);
+    cursor: pointer;
+    color: black;
+    box-shadow: 0px 0px black;
+}

@@ -1,0 +1,33 @@
+input[type="text"]{
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+.containerInput::before{
+    content: '.';
+    font-size: 30px;
+    background-color: green;
+    color: green;
+    border-radius: 15px;
+    position: relative;
+    left: 20px;
+    animation: parpadeo infinite ease-out 1s alternate;
+}
+
+
+@keyframes parpadeo {
+    0%{
+        background-color: rgb(52, 94, 52);
+        color: rgb(52, 94, 52);
+        transform: scale(.5);
+    }
+    100%{
+        background-color: rgb(0, 255, 0);
+        color: rgb(0, 255, 0);
+        transform: scale(1);
+    }
+}
