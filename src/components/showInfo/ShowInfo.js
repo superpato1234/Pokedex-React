@@ -1,10 +1,9 @@
 import React,{useState,useEffect} from 'react'
 import './ShowInfo.css'
 
-const ShowInfo = (props) => {
+const ShowInfo = ({pokeInfo}) => {
 
     const [pokeType, setPokeType] = useState('')
-    const {pokeInfo} = props;
     let url = pokeInfo?.sprites;
     url===undefined?url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png":url=pokeInfo.sprites.front_default;
 
