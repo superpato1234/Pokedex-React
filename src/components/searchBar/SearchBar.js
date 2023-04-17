@@ -1,8 +1,7 @@
 import React,{useState} from 'react'
 import './SearchBar.css'
 
-const SearchBar = (porps) => {
-    const {handlePokemon} = porps;
+const SearchBar = ({handlePokemon}) => {
 
     const [pokemon, setpokemon] = useState("pikachu")
 
