@@ -1,8 +1,9 @@
 import React from 'react'
 import './ControlBar.css'
 
-const ControlBar = ({handleNext,handlePrevius}) => {
+const ControlBar = (props) => {
 
+    const {handleNext,handlePrevius}=props
     const anterior = '<-'
     const siguiente = '->'
     return (
